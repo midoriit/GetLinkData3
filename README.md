@@ -1,12 +1,5 @@
 # GetLinkData
-LinkData.orgからQGISにデータを取り込むためのQGISプラグインです。
-
-### インストール
-QGISの「プラグイン」メニューから「プラグインの管理とインストール…」を選択し、「設定」タブでプラグインリポジトリに
-```
-http://midoriit.com/qgis/plugins.xml
-```
-を追加し、「実験的プラグインも表示する」にチェックを付け、「全ての」タブで「GetLinkData」をインストールします。
+LinkData.orgからQGISにデータを取り込むためのQGIS 3.0プラグインです。
 
 ### 使用方法
 QGISの「Web」メニューに追加された「GetLinkData」→「LinkData.orgからデータを取得する」を選択すると、ダイアログボックスが表示されます。
