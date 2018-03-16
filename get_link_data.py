@@ -279,8 +279,8 @@ class GetLinkData:
                 except:
                   lost_features = lost_features + 1;
                   continue
-                feature = QgsFeature(newLayer.pendingFields())
-                feature.setGeometry(QgsGeometry.fromPoint(QgsPoint(flon, flat)))
+                feature = QgsFeature(newLayer.fields())
+                feature.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(flon, flat)))
 
                 # set attributes (subject)
                 feature.setAttribute(self.subject, unicode(k))

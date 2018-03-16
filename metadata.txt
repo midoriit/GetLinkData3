@@ -8,7 +8,7 @@
 
 [general]
 name=GetLinkData3
-qgisMinimumVersion=2.99
+qgisMinimumVersion=3.0
 description=Retrieve data from LinkData.org
 version=0.1
 author=Midori IT Office, LLC
